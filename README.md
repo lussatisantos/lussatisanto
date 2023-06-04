@@ -1,2 +1,2 @@
 # meu-site
- Meu site pessoal para uso do Github Pages
+ Meu site pessoal para uso no Github Pages
