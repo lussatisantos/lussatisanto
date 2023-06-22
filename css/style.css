@@ -1,0 +1,81 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'open sans';
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    color: currentColor;
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover {
+    opacity: 1;
+}
+body {
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.74);
+    padding: 20px 50px;
+    justify-content: space-around;
+}
+
+header section {
+    display: flex;
+    flex-direction: stretch;
+    text-align: justify;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    border-radius: 100%;
+}
+.inform {
+   margin-left: 15px;
+   margin-top: 15px;
+   padding: 10px;
+  
+}
+.inform p {
+    border-radius: 0 10px 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding-bottom: 15px;
+    background-color: rgba(97, 96, 96, 0.288);
+}
+
+/* FOOTER */
+footer {
+ text-align: center;
+    background-color:  rgba(97, 96, 96, 0.288);
+}
+
+.rodape {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+}
+footer div a img {
+    width: 10%;
+    height: 10%;
+    padding-right: 15px;
+    padding-left: 15px;
+}

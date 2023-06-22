@@ -1,0 +1,33 @@
+/*
+@charset 'UTF-8';
+
+@media screen and (max-width: 767px){
+    html, body {
+        margin: 0px;
+        padding: 0px;
+    }
+   header {
+        height: 170px;
+   }
+    div#img-principal {
+    
+        text-align: center;
+        padding: 5px;
+   }
+   #img-face {
+        border-radius: 50%;
+   }
+    p {
+        color: red;
+        display: wrap;
+   }   
+    #rodape {
+        border: 2px solid black;
+        height: 50px;
+   } 
+   .logos {
+        height: 50px;
+        border-radius: 50%;
+   }
+}
+*/
