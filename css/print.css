@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    color: currentColor;
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.9;
+}
+/* NONE */
+
+header .inform {
+    display: none;
+}
+
+main {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+/* General */
+
+section {
+    text-align: justify;
+}
+section div {
+    padding-bottom: 10px;
+}
+section div p {
+    padding-left: 15px;
+    padding: 5px;
+}
+
+section div ul li {
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+section div ul {
+    padding: 5px;
+}
+section img {
+    width: 125px;
+    height: 125px;
+}
+.ocup p {
+    padding-left: 15px;
+}
+.pessoais p {
+    padding-left: 15px;
+}
+.linguas p {
+    padding-left: 15px;
+}
+.contactos p {
+    padding-left: 15px;
+}

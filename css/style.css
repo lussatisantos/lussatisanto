@@ -62,6 +62,55 @@ header img {
     background-color: rgba(97, 96, 96, 0.288);
 }
 
+/* MAIN */
+
+main {
+    display: flex;
+    text-align: justify;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+.story {
+    margin: 15px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.story h1 {
+    padding-bottom: 10px;
+}
+.story p {
+    padding-bottom: 15px;
+}
+.fotos {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.story ul {
+    padding-left: 20px;
+}
+
+.resumo {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .fotos {
+        display: none;
+    }
+    .printer-cv {
+        display: none;
+    }
+}
+
+.printer-cv {
+    display: none;
+}
 /* FOOTER */
 footer {
  text-align: center;
