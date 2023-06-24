@@ -48,8 +48,8 @@ section div ul {
     padding: 5px;
 }
 section img {
-    width: 125px;
-    height: 125px;
+    width: 90px;
+    height: 90px;
 }
 .ocup p {
     padding-left: 15px;
@@ -62,4 +62,7 @@ section img {
 }
 .contactos p {
     padding-left: 15px;
+}
+.printer-cv {
+    display: block;
 }
